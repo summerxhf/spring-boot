@@ -11,6 +11,7 @@
     <modules>
         <module>springbootgetresource</module>
         <module>spring-boot-webinfo</module>
+        <module>spring-boot-JdbcTemplate</module>
     </modules>
     <dependencies>
         <dependency>
