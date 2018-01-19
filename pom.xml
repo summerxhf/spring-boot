@@ -12,6 +12,7 @@
         <module>springbootgetresource</module>
         <module>spring-boot-webinfo</module>
         <module>spring-boot-JdbcTemplate</module>
+        <module>spring-boot-mybatis</module>
     </modules>
     <dependencies>
         <dependency>
