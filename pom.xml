@@ -9,7 +9,7 @@
     <packaging>pom</packaging>
     <version>1.0-SNAPSHOT</version>
     <modules>
-        <module>springbootgetresource</module>
+        <module>spring-boot-getresource</module>
         <module>spring-boot-webinfo</module>
         <module>spring-boot-JdbcTemplate</module>
         <module>spring-boot-mybatis</module>

@@ -16,7 +16,7 @@ import java.io.InputStream;
 import java.io.InputStreamReader;
 
 /**
- * xhf add 2018Äê1ÔÂ17ÈÕ
+ * xhf add
  */
 @RestController
 @EnableAutoConfiguration
