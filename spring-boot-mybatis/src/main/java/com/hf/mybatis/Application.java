@@ -18,8 +18,8 @@ import javax.sql.DataSource;
 
 @EnableAutoConfiguration
 @Configuration
-@ComponentScan(value = "com.hf.mapper")
-@MapperScan("com.hf.mybatis")
+@ComponentScan(value = "com.hf")
+@MapperScan("com.hf")
 public class Application {
     private static Logger logger = Logger.getLogger(Application.class);
 

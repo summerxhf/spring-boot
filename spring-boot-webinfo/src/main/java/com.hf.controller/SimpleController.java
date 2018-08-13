@@ -23,6 +23,13 @@ public class SimpleController {
         return "the content of resources:" + content;
     }
 
+    @RequestMapping("/getConnection")
+    @ResponseBody
+    public String getIsConnected() throws IOException{
+//        String content = IOUtils.toString(resourceLoader.getResource("classpath:WEB-INF/target_file.txt").getInputStream());
+        return "连接成功!";
+    }
+
     public static void main(String[] args) {
         SpringApplication.run(SimpleController.class,args);
     }

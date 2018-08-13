@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
-<mapper namespace="com.henry.xi.mybatis.mapper.UserMapper">
+<mapper namespace="com.hf.mapper.UserMapper">
 
     <select id="findUserInfo" resultType="com.hf.model.User">
         select name, age,password from users;
