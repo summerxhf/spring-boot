@@ -13,6 +13,7 @@
         <module>spring-boot-webinfo</module>
         <module>spring-boot-JdbcTemplate</module>
         <module>spring-boot-mybatis</module>
+        <module>spring-boot-multienvironment</module>
     </modules>
     <dependencies>
         <dependency>
@@ -27,5 +28,20 @@
             <version>2.4</version>
         </dependency>
     </dependencies>
-
+    <build>
+        <plugins>
+            <!--解决SpringBoot打包成jar后运行提示没有主清单属性-->
+            <plugin>
+                <groupId>org.springframework.boot</groupId>
+                <artifactId>spring-boot-maven-plugin</artifactId>
+                <executions>
+                    <execution>
+                        <goals>
+                            <goal>repackage</goal>
+                        </goals>
+                    </execution>
+                </executions>
+            </plugin>
+        </plugins>
+    </build>
 </project>
